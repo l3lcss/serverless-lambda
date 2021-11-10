@@ -1,9 +1,9 @@
 mysql:
-  host: "localhost"
+  host: "cubbie-database.cpt9nkl5ctfj.ap-southeast-1.rds.amazonaws.com"
   port: 3306
-  username: "root"
-  password: "publishmetotheworld!@#456"
-  database: "fk-migration-product"
+  username: "admin"
+  password: "xtjx100$Z!X7uYjas7bfkh"
+  database: "cubbie-database"
 
 mssql:
   host: "localhost"

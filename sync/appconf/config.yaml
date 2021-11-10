@@ -1,0 +1,14 @@
+mysql:
+  host: "localhost"
+  port: 3306
+  username: "root"
+  password: "publishmetotheworld!@#456"
+  database: "fk-migration-product"
+
+mssql:
+  host: "localhost"
+  port: 1433
+  username: "sa"
+  password: "Somesecure*password"
+  database: "fk-migration-product"
+  

@@ -73,6 +73,9 @@ functions:
       - httpApi:
           path: /sync
           method: post
+custom:
+  enterprise:
+    logIngestMode: pull
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
 #    Check the event documentation for details
@@ -111,8 +114,9 @@ functions:
 #            path: /hello
 
 #    Define function environment variables here
-#    environment:
-#      variable2: value2
+  environment:
+    variable1: value1
+    variable2: value2
 
 # you can add CloudFormation resource templates here
 #resources:
